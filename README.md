@@ -6,6 +6,8 @@ This is a package which demonstrate Sling Health Checks instantiating and config
 Building
 --------
 
+Install AEM with: java -server -Xmx2048M -jar cq6.1-author-p4502.jar -r author, nosamplecontent
+
 This project uses Maven for building. Common commands:
 
 From the root directory, run ``mvn -PautoInstallPackage clean install`` to build the bundle and content package and install to a CQ instance.
